@@ -7,41 +7,54 @@
 </head>
 <body>
     <div class="card">
+        <img class="logo" src="../static/images/titan-logo.png">
         <header>
             <div class="time"></div>
-            <div class="tatami">ТАТАМИ 1</div>
+            <div class="tatami">ТАТАМИ
+                <input class="number-input" type="number" value="1">
+            </div>
 
             <div class="fighters">
                 <div class="left-fighter">
-                    <div class="club-name">Феникс</div>
-                    <div class="city-name">Наро-Фоминск</div>
-                    <div class="photo"></div>
-                    <div class="fighter-name">Трофимова<br>Варвара Ивановна</div>
+                    <input class="club-name" type="text" value="Феникс">
+                    <input class="city-name" type="text" value="Наро-Фоминск">
+                    <label class="photo">
+                        <input type="file" accept="image/*">
+                        <span class="file-input">Вставьте фото</span>
+                        <img class="photo-preview" src="" alt="">
+                    </label>
+                    <input class="fighter-name" type="text" value="Трофимова">
+                    <input class="fighter-name" type="text" value="Варвара Ивановна">
                 </div>
 
                 <div class="stats">
                     <div class="age">
-                        <span class="left-value">16</span>
+                        <input class="left-value" type="number" value="16">
                         <span class="stat-label">ВОЗРАСТ</span>
-                        <span class="right-value">17</span>
+                        <input class="right-value" type="number" value="17">
                     </div>
                     <div class="height">
-                        <span class="stat-value left-value">137</span>
+                        <input class="stat-value left-value" type="number" value="137">
                         <span class="stat-label">РОСТ</span>
-                        <span class="stat-value right-value">142</span>
+                        <input class="stat-value right-value" type="number" value="142">
                     </div>
                     <div class="weight">
-                        <span class="stat-value left-value">40</span>
+                        <input class="stat-value left-value" type="number" value="40">
                         <span class="stat-label">ВЕС</span>
-                        <span class="stat-value right-value">36</span>
+                        <input class="stat-value right-value" type="number" value="36">
                     </div>
                 </div>
 
                 <div class="right-fighter">
-                    <div class="club-name">Феникс</div>
-                    <div class="city-name">Наро-Фоминск</div>
-                    <div class="photo"></div>
-                    <div class="fighter-name">Белоусова<br>Мария Денисовна</div>
+                    <input class="club-name" type="text" value="Феникс">
+                    <input class="city-name" type="text" value="Наро-Фоминск">
+                    <label class="photo">
+                        <input type="file" accept="image/*">
+                        <span class="file-input">Вставьте фото</span>
+                        <img class="photo-preview" src="" alt="">
+                    </label>
+                    <input class="fighter-name" type="text" value="Белоусова">
+                    <input class="fighter-name" type="text" value="Мария Денисовна">
                 </div>
             </div>
         </header>
